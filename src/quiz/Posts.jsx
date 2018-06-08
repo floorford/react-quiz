@@ -85,3 +85,6 @@ export default Posts;
 
 // could put state of input inside form component itself
 // the onChange bit is dealt with internally in the form and only the onClick is passed down to the form
+// the onClick could be onSubmit, catches more than the onClick
+// and the form part has the onsubmit, not the button
+// handle submit has e.preventDefault() in it, onSubmit(this.state), sends what is in that state up into the posts component, then resets values to zero

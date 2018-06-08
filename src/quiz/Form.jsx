@@ -39,5 +39,5 @@ const Form = ({ formFields, onClick, onChange }) => {
     </React.Fragment>
   )
 }
-//the onClick could be onSubmit, catches more than the onClick
+
 export default Form;
