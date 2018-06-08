@@ -5,7 +5,7 @@ import React from "react"
 const Multiplier = ({ x, y }) => (
   <React.Fragment>
   <h4>Question 1</h4>
-  <p>{ x } x { y } = { x * y }</p>
+  <p>{ x } &times; { y } = { x * y }</p>
   </React.Fragment>
 )
 
